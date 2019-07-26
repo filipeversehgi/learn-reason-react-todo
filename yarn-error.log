@@ -1,0 +1,56 @@
+Arguments: 
+  /home/filipe/.nvm/versions/node/v10.16.0/bin/node /usr/share/yarn/bin/yarn.js add bs-css
+
+PATH: 
+  /home/filipe/.asdf/shims:/home/filipe/.asdf/bin:/home/filipe/.nvm/versions/node/v10.16.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+
+npm manifest: 
+  {
+    "name": "reason-todo-hooks",
+    "version": "0.1.0",
+    "scripts": {
+      "build": "bsb -make-world",
+      "start": "bsb -make-world -w",
+      "clean": "bsb -clean-world",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "webpack": "webpack -w",
+      "webpack:production": "NODE_ENV=production webpack",
+      "server": "webpack-dev-server"
+    },
+    "keywords": [
+      "BuckleScript"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "react": "^16.8.1",
+      "react-dom": "^16.8.1",
+      "reason-react": ">=0.7.0"
+    },
+    "devDependencies": {
+      "bs-platform": "^5.0.6",
+      "html-webpack-plugin": "^3.2.0",
+      "webpack": "^4.0.1",
+      "webpack-cli": "^3.1.1",
+      "webpack-dev-server": "^3.1.8"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
